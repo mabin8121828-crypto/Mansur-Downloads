@@ -22,7 +22,7 @@ Ordinary typing does not require a large model. Optional translation and text-to
 
 ## Browser integration and limitations
 
-The Chrome and Edge extensions are both named **Mansur**, version **0.3.3**. Drafts have been saved in both developer dashboards; neither has been submitted for review or published. Store links will be added when available.
+The Chrome and Edge extensions are both named **Mansur**, version **0.3.3**. Both have been submitted for review and are awaiting review results; neither is published in the stores yet. Store links will be added when available.
 
 This installer includes the corrected Edge extension identity and connection-registration migration, together with browser-extension fixes for first site enablement and cold start. Existing version 83 installations can be upgraded through the installer.
 
