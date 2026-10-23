@@ -13,4 +13,16 @@ Mansur 自有代码及文档按 `legal/Mansur-MIT.txt` 授权。第三方组件�
 
 Mansur-owned code and documentation use MIT. Third-party components and separately downloaded models retain their respective licenses. GPL/LGPL corresponding-source materials and build information are included at the paths above. The complete installer must not be described as MIT-only. Applicable open-source rights are not reduced by the installation terms.
 
+## 当前 83 补充 / Current 83 supplement — 2026-10-24
+
+本补充对应已在测试电脑安装验收的修复版 83 安装包，SHA256：
+
+`8bfaa7845d8f9c1032078d272e94d606b0ef2ecfc608735ba2ba0eb210bd22cc`
+
+维护者已于 2026-10-23 经微软官方流程获得并安装 Visual Studio Community 2022，记录了个人开发自有应用的后续获得依据。旧清单中“Visual Studio 资格待确认”反映此前阶段；不是本次仍未获得 Community 的结论，也不追认全部历史构建。微软组成仍按其适用[Community 条款](https://visualstudio.microsoft.com/license-terms/vs2022-ga-community/)和[再分发清单](https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution)提供，不由 Mansur 的 MIT 重新授权。
+
+已核对当前文件清单及安装验收记录中的许可、来源和对应源码材料：GPL 语音对应源码位于 `runtime/python/corresponding-source.zip`，当前 Mansur Python worker 源码另随程序提供；LGPL 音频库完整对应源码位于上列 `licenses/asr/libsndfile-1.2.2-noexternal-corresponding-source.zip`，原许可、配置、重建及替换库说明一并保留。该修复版未重新制作这些档案，也未把模型权重许可改为代码许可。
+
+本补充不宣称已独立复现所有模型转换、核实每个音色或训练素材的全部权利，亦不构成对全部第三方权利的全面认证。单独下载的模型仍须保留对应原始模型卡、条款、作者和转换来源；本补充不代表用户接受其外部协议。
+
 客服与隐私联系 / Support and privacy: **800693@QQ.com**.

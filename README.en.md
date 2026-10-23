@@ -4,12 +4,12 @@ A Windows input method with optional translation, text-to-speech and speech reco
 
 ## Version 83 — test release
 
-**[Download the Windows x64 installer (approximately 417 MB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-83/Mansur-Setup-0.1.0-private.83-Windows-x64.exe)** · [Release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83) · [中文](README.md)
+**[Download the Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-83/Mansur-Setup-0.1.0-private.83-Windows-x64.exe)** · [Release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83) · [中文](README.md)
 
 - Windows 10 version 2004 or later / Windows 11, Intel or AMD x64.
-- Existing version 83 installer, published without rebuilding. `private` in its filename is historical version naming; the download is public.
-- Size: **417,188,321 bytes**.
-- SHA256: `43bd2bee076e38377c73e43db4068870c68d6ba604ce863e5009c0002586773d`.
+- This release uses the existing, validated version 83 repair installer without rebuilding it for publication. `private` in its filename is historical version naming; the download is public.
+- Size: **416,919,533 bytes** (approximately 398 MiB).
+- SHA256: `8bfaa7845d8f9c1032078d272e94d606b0ef2ecfc608735ba2ba0eb210bd22cc`.
 - This installer is **not code-signed**. Check the download source and checksum.
 
 Download the **EXE**, not GitHub's automatically generated Source code ZIP/tar.gz. Those archives contain only this download repository's documentation.
@@ -22,11 +22,11 @@ Ordinary typing does not require a large model. Optional translation and text-to
 
 ## Browser integration and limitations
 
-The Chrome and Edge extensions have **not yet been published in their stores**. Store links will be added when available.
+The Chrome and Edge extensions are both named **Mansur**, version **0.3.3**. Drafts have been saved in both developer dashboards; neither has been submitted for review or published. Store links will be added when available.
 
-This frozen installer **does not include subsequent fixes for the browser extension's first site enablement and cold start**. Those fixes have been tested separately and are not delivered in this installer.
+This installer includes the corrected Edge extension identity and connection-registration migration, together with browser-extension fixes for first site enablement and cold start. Existing version 83 installations can be upgraded through the installer.
 
-Version 83 has passed a targeted upgrade installation and file verification on a second Windows computer, Chinese input, an existing test extension's connection and public sample translation, and local speech workers' public-audio recognition. This is not a claim of complete clean-system, Word, microphone or compatibility-matrix verification.
+This repair installer passed an actual upgrade from the previous version 83 on a second Windows computer, verification of 2,815 installed files and related registration checks, and connections and public sample translations with the existing test extensions after reopening Chrome and Edge. Installation from the official stores remains to be verified after review and publication. These checks do not establish complete clean-system, Word, live-microphone or compatibility-matrix coverage.
 
 ## Licenses and contact
 

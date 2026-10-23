@@ -1,1 +1,1 @@
-43bd2bee076e38377c73e43db4068870c68d6ba604ce863e5009c0002586773d  Mansur-Setup-0.1.0-private.83-Windows-x64.exe
+8bfaa7845d8f9c1032078d272e94d606b0ef2ecfc608735ba2ba0eb210bd22cc  Mansur-Setup-0.1.0-private.83-Windows-x64.exe
