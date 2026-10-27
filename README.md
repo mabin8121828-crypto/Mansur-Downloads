@@ -2,7 +2,17 @@
 
 Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提供。
 
-## 87 测试版
+## 最新版本：91
+
+**[下载 91 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-91/Mansur-Setup-0.1.0.91-Windows-x64.exe)** · [91 发行说明](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) · [English](README.en.md)
+
+- 文件：`Mansur-Setup-0.1.0.91-Windows-x64.exe`，**417,176,340 字节**。
+- SHA256：`18172dc81a24d04aba990c5761594b10d8e731c517362f2362d989bdd2795ac5`。
+- 此包已在开发者电脑安装运行；其他设备及全部功能尚未完成全面验收。安装包未进行数字签名。
+- 安装和卸载时请阅读 91 包内的条款与说明。需要保留个人设置、API 配置、词库和模型时，不要勾选卸载界面中的删除选项。
+- 91 的 Python 项目源码和第三方对应源码位置见 [91 发行说明](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91)。下面的 87 内容是历史信息，适用 87 版本。
+
+## 87 测试版（历史信息)
 
 **[下载 87 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-87/Mansur-Setup-0.1.0.87-Windows-x64.exe)** · [87 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87) · [English](README.en.md)
 
