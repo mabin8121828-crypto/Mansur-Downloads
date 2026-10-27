@@ -2,7 +2,17 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Version 87 — prerelease
+## Latest version: 91
+
+**[Download the version 91 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-91/Mansur-Setup-0.1.0.91-Windows-x64.exe)** · [Version 91 release notes](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) · [中文](README.md)
+
+- File: `Mansur-Setup-0.1.0.91-Windows-x64.exe`, **417,176,340 bytes**.
+- SHA256: `18172dc81a24d04aba990c5761594b10d8e731c517362f2362d989bdd2795ac5`.
+- This installer has been installed and run on the developer's computer; comprehensive acceptance on other devices and of all features remains pending. The installer is not digitally signed.
+- Read the terms and instructions included with version 91. To retain personal settings, API configuration, dictionaries and models, leave the deletion options unchecked during uninstallation.
+- See the [version 91 release notes](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) for the Python source and third-party corresponding source locations. The information below is historical and applies to version 87.
+
+## Version 87 — historical prerelease
 
 **[Download the Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-87/Mansur-Setup-0.1.0.87-Windows-x64.exe)** · [Release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87) · [中文](README.md)
 
