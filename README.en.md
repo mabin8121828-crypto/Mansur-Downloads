@@ -2,7 +2,19 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Latest version: corrected 92
+## Latest public test version: 94
+
+**[Download the 94 Windows x64 test installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-94/Mansur-Setup-0.1.0.94-Windows-x64.exe)** · [94 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-94)
+
+- File: `Mansur-Setup-0.1.0.94-Windows-x64.exe`, **417,285,140 bytes**.
+- SHA256: `e2e00ec633ccf2508caeb3e23511eaf035eeabb9b8014c643ae69ce7db09296c`.
+- Version 94 is a **prerelease**. Archive integrity and relevant isolated checks passed; **target-computer installation, complete installed-browser acceptance and store automatic updates remain pending**. The accepted 92 release remains below.
+- Local general whole-page translation uses bounded visible labels, table headers and nearby sentences to disambiguate words, without requiring professional enhancement.
+- Professional enhancement is off by default and controlled centrally in desktop settings. Select a domain and independently opt into an imported glossary; Chrome and Edge follow the same setting. Complete industry dictionaries are not bundled.
+- Dynamic course pages, formulas and Chinese answer labels are retained. The installer includes local extension 0.3.11; this does not establish its publication in either browser store.
+- The exact checked installer was uploaded without a rebuild. A complete anonymous download matched its size and SHA256.
+
+## Accepted version: corrected 92
 
 **[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
@@ -27,13 +39,11 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 ## Chrome and Edge
 
-**As verified on 2026-10-29, Mansur 0.3.3 is publicly available in the Chrome Web Store.**
+[Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-[Chrome Web Store listing](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb)
+Desktop and store-extension versions are published independently. Full neutral page context and professional enhancement in extension 0.3.11 require desktop 94. Desktop 92 retains the previous general-translation protocol. This GitHub upload does not change either store; 0.3.11 store review and automatic-update acceptance are separate. Check the actual store version.
 
-The **0.3.6 update package and reviewer materials are prepared but have not yet been submitted for update review**. Installing desktop 92 does not give the store's 0.3.3 extension the new whole-page features. Official store publication and the update path for 0.3.6 remain pending. Check the actual store version; prepared materials do not establish publication. Edge's current status and companion update are being verified separately; this page does not claim that Edge 0.3.6 is published.
-
-The browser manages extension installation and website permissions separately from desktop installation. The 0.3.6 whole-page feature requires desktop 92. Detailed sentence explanations are optional and require the user's own online service, not the developer's account.
+The94 installer includes the local 0.3.11 extension files. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
 
 ## Historical releases and existing review references
 
@@ -45,7 +55,9 @@ These releases and their downloads remain available for existing references. The
 
 ## Licensing and support
 
-Use the documents bundled with the installer you download. This repository's existing [terms](legal/使用条款.txt), [desktop privacy notice](legal/隐私说明.txt) and [pre-installation guide](legal/安装前阅读.txt) apply to **version 87 / document version 2026-10-25.1**. They are historical material, not a claim to be version 92's documents.
+Use the documents bundled with your installer. Version 94 uses document version **2026-10-29.2**: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt), matching the bundled 94 documents.
+
+The original [terms](legal/使用条款.txt), [privacy notice](legal/隐私说明.txt) and [pre-installation notice](legal/安装前阅读.txt) remain historical version87 /2026-10-25.1 material. For 92 and earlier releases, use the documents bundled with each installer.
 
 Mansur-owned code and documentation use [MIT](legal/Mansur-MIT.txt); third-party components and models retain their own licenses. See [license and corresponding-source locations](LICENSES.md). The complete installer is not MIT-only.
 
