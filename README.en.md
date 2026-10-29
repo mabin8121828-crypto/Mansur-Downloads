@@ -2,19 +2,23 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Latest public test version: 94
+## Latest public test version: 95 (uninstall maintenance correction)
 
-**[Download the 94 Windows x64 test installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-94/Mansur-Setup-0.1.0.94-Windows-x64.exe)** · [94 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-94)
+**[Download the 95 Windows x64 test installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-95/Mansur-Setup-0.1.0.95-Windows-x64.exe)** · [95 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-95)
 
-- File: `Mansur-Setup-0.1.0.94-Windows-x64.exe`, **417,285,140 bytes**.
-- SHA256: `e2e00ec633ccf2508caeb3e23511eaf035eeabb9b8014c643ae69ce7db09296c`.
-- Version 94 is a **prerelease**. Archive integrity and relevant isolated checks passed; **target-computer installation, complete installed-browser acceptance and store automatic updates remain pending**. The accepted 92 release remains below.
-- Local general whole-page translation uses bounded visible labels, table headers and nearby sentences to disambiguate words, without requiring professional enhancement.
-- Professional enhancement is off by default and controlled centrally in desktop settings. Select a domain and independently opt into an imported glossary; Chrome and Edge follow the same setting. Complete industry dictionaries are not bundled.
-- Dynamic course pages, formulas and Chinese answer labels are retained. The installer includes local extension 0.3.11; this does not establish its publication in either browser store.
-- The exact checked installer was uploaded without a rebuild. A complete anonymous download matched its size and SHA256.
+- File: `Mansur-Setup-0.1.0.95-Windows-x64.exe`, **417,234,407 bytes**.
+- SHA256: `3241dd68dc95a1900289a077da6b00261f534429161122e50f2ebce14dea7a7a`.
+- Fixes generated maintenance records that were not recognized by the uninstall rules and could block cleanup. New rollback records are stored outside the program directory with permission, file-identity and installation-generation checks.
+- Completes the explicit version-95 installation, removal and deferred-cleanup checks and rebuilds the maintenance worker. The desktop business executable and browser files remain byte-identical to accepted 94 inputs. The desktop executable still reports 0.1.0.94; Windows setup/removal identifies maintenance revision 95.
+- **669 maintenance checks** passed in this round, plus independent payload hashes, compressed integrity and the exact changes from 94. A complete anonymous download matched the published file size and SHA256.
+- This remains a **prerelease**: **target-computer installation, installed-version removal, complete installed-browser acceptance and store automatic updates remain pending**.
+- Retains the local general context, professional enhancement off by default, dynamic courses, formulas and Chinese answer labels from 94. Local extension 0.3.11 is bundled. It has been submitted to Chrome and Edge review; submission does not establish store publication.
+- Version 95 does not rewrite an already-installed older uninstaller. A failed older uninstall must first be recovered using its actual maintenance result. Leave settings, dictionaries, history and model deletion unchecked to preserve data.
+- [Version 94 and earlier releases/downloads](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases) remain available, and stable latest is unchanged.
 
 ## Accepted version: corrected 92
+
+Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Version 95 includes the later maintenance corrections but does not rewrite an already-installed 92 uninstaller.
 
 **[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
@@ -41,9 +45,9 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-Desktop and store-extension versions are published independently. Full neutral page context and professional enhancement in extension 0.3.11 require desktop 94. Desktop 92 retains the previous general-translation protocol. This GitHub upload does not change either store; 0.3.11 store review and automatic-update acceptance are separate. Check the actual store version.
+Desktop and store-extension versions are published independently. Full neutral page context and professional enhancement in extension 0.3.11 require desktop 94 or maintenance revision 95 (which retains the 94 business executable). Desktop 92 retains the previous general-translation protocol. This GitHub upload does not change either store; 0.3.11 store review and automatic-update acceptance are separate. Check the actual store version.
 
-The94 installer includes the local 0.3.11 extension files. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
+The 95 installer includes the local 0.3.11 extension files. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
 
 ## Historical releases and existing review references
 
@@ -55,7 +59,7 @@ These releases and their downloads remain available for existing references. The
 
 ## Licensing and support
 
-Use the documents bundled with your installer. Version 94 uses document version **2026-10-29.2**: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt), matching the bundled 94 documents.
+Use the documents bundled with your installer. Version 95 retains the same **2026-10-29.2** documents as 94: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt), matching the documents bundled in 94 and 95.
 
 The original [terms](legal/使用条款.txt), [privacy notice](legal/隐私说明.txt) and [pre-installation notice](legal/安装前阅读.txt) remain historical version87 /2026-10-25.1 material. For 92 and earlier releases, use the documents bundled with each installer.
 
