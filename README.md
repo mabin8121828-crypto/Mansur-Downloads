@@ -2,7 +2,19 @@
 
 Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提供。
 
-## 最新版本：92 修正版
+## 最新公开测试版：94
+
+**[下载94 Windows x64测试安装包（约398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-94/Mansur-Setup-0.1.0.94-Windows-x64.exe)** · [94发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-94)
+
+- 文件：`Mansur-Setup-0.1.0.94-Windows-x64.exe`，**417,285,140字节**。
+- SHA256：`e2e00ec633ccf2508caeb3e23511eaf035eeabb9b8014c643ae69ce7db09296c`。
+- 94标记为**预发布测试版**。成品完整性及相关隔离检查已通过，**目标电脑安装、两浏览器完整使用和商店自动更新验收仍待完成**。92已验收版继续在下方提供。
+- 本地通用整页翻译使用附近可见的标签、表头和短句判断词义；例如状态栏Running与运动Running可分别译为“运行中”和“跑步”，不需要开启专业增强。
+- 专业增强在电脑端统一设置，默认关闭；开启后手动选择领域和是否使用已导入词库，Chrome与Edge跟随同一设置。没有自带完整的多行业词库。
+- 保留课程动态翻页、公式和按钮内中文。安装包内附本地扩展0.3.11；这不代表两店已发布0.3.11。
+- 原样上传已核验安装包，没有为上传重新打包。公开下载已通过匿名完整文件大小和SHA256核验。
+
+## 已验收版：92 修正版
 
 **[下载 92 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [92 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [English](README.en.md)
 
@@ -27,13 +39,11 @@ Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提�
 
 ## Chrome 与 Edge
 
-**截至 2026-10-29 本次核验，Chrome 商店已上架 Mansur 0.3.3。**
+[Chrome商店页面](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Edge商店页面](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-[Chrome 商店页面](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb)
+电脑端与扩展商店版本分别发布。0.3.11的完整通用上下文及专业增强能力需要配套电脑端94；92仅保留原有通用翻译兼容。本次GitHub上传不改变两店状态，0.3.11商店更新和自动更新验收单独办理，请以实际商店版本为准。
 
-配套 **0.3.6 更新包及审核材料已准备，尚未提交更新审核**。因此，安装电脑端 92 不会让商店中的 0.3.3 自动获得整页翻译等新增功能；0.3.6 正式商店发布及更新链路仍待完成。请以实际商店版本为准，不将准备好材料等同于已经上架。Edge 的当前状态与配套更新另行核实，本页暂不宣称 Edge 0.3.6 已发布。
-
-浏览器自身管理扩展安装与网站访问授权，安装电脑端不会替用户完成这些授权。0.3.6 整页功能需要配套电脑端 92；详细句子讲解为可选在线功能，需要用户自行配置服务，不依赖开发者个人账户。
+94安装包内提供本地0.3.11扩展文件。浏览器管理扩展安装、重新加载和网站访问授权，安装电脑端不会替用户完成授权。专业增强由电脑端一个总开关控制，默认关闭，不按网站分别配置；更新设置后刷新已打开网页。通用可见上下文仅走本地处理，在线API和划词保持各自已有规则，不因本地失败自动切换在线服务。
 
 ## 历史版本与既有审核引用
 
@@ -45,7 +55,9 @@ Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提�
 
 ## 许可与支持
 
-请以所下载安装包随附的协议和许可证为准。本仓库现有[使用条款](legal/使用条款.txt)、[桌面隐私说明](legal/隐私说明.txt)及[安装前阅读](legal/安装前阅读.txt)对应 **87／2026-10-25.1**，是历史材料，不冒充本次 92 协议。
+请以所下载安装包随附的协议和许可证为准。94版公开协议对应**2026-10-29.2**：[使用条款](legal/0.1.0.94/使用条款.txt)、[隐私说明](legal/0.1.0.94/隐私说明.txt)、[安装前阅读](legal/0.1.0.94/安装前阅读.txt)，内容与94包内文档一致。
+
+原有[使用条款](legal/使用条款.txt)、[桌面隐私说明](legal/隐私说明.txt)及[安装前阅读](legal/安装前阅读.txt)对应87／2026-10-25.1，继续作为历史材料保留。92及更早版本以各自随包协议为准。
 
 Mansur 自有代码及文档适用 [MIT](legal/Mansur-MIT.txt)，第三方组件和模型分别适用原许可。[许可与对应源码位置](LICENSES.md)列明相应材料，整个安装包不能概括为仅采用 MIT。
 
