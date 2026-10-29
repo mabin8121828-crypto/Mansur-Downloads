@@ -2,52 +2,53 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Latest version: 91
+## Latest version: corrected 92
 
-**[Download the version 91 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-91/Mansur-Setup-0.1.0.91-Windows-x64.exe)** · [Version 91 release notes](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) · [中文](README.md)
-
-- File: `Mansur-Setup-0.1.0.91-Windows-x64.exe`, **417,176,340 bytes**.
-- SHA256: `18172dc81a24d04aba990c5761594b10d8e731c517362f2362d989bdd2795ac5`.
-- This installer has been installed and run on the developer's computer; comprehensive acceptance on other devices and of all features remains pending. The installer is not digitally signed.
-- Read the terms and instructions included with version 91. To retain personal settings, API configuration, dictionaries and models, leave the deletion options unchecked during uninstallation.
-- See the [version 91 release notes](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) for the Python source and third-party corresponding source locations. The information below is historical and applies to version 87.
-
-## Version 87 — historical prerelease
-
-**[Download the Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-87/Mansur-Setup-0.1.0.87-Windows-x64.exe)** · [Release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87) · [中文](README.md)
+**[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
 - Windows 10 version 2004+ / Windows 11, Intel or AMD x64.
-- File: `Mansur-Setup-0.1.0.87-Windows-x64.exe`, **416,915,620 bytes**.
-- SHA256: `7fe6d994a73c8b95c4e0e31e5499dba1a139ec03234a2ff0c9309a96fa379c8f`.
-- **Actual installation, uninstallation and complete usage acceptance are still pending.** Build checks, archive integrity and 763 desktop self-checks passed; these do not replace installation acceptance.
-- The existing 87 installer is published unchanged, without another build. It is not code-signed.
+- File: `Mansur-Setup-0.1.0.92-Windows-x64.exe`, **417,327,301 bytes**.
+- SHA256: `ed70efcb46eb6b834145444b2baf65ced723e5fff366d40b27c50ce933dba86e`.
+- This is the existing corrected installer, published unchanged without recompilation or repackaging. A complete anonymous download matched its exact size and SHA256.
+- On 2026-10-29 the user confirmed that corrected 92 installed and worked normally. This does not establish comprehensive acceptance on other devices or of all features. The installer is not digitally signed.
 
-Version 87 fixes legacy download preferences overriding the new model directory, an outdated version label in the setup guide, and an uninstaller file-check handle causing a false busy-file result. Newly downloaded models default to `Models` under the Mansur product directory. Existing configured models are preserved and reused when valid, without automatic relocation or a mandatory repeat download.
+Version 92 provides the desktop support needed by browser extension 0.3.6 for whole-page Chinese translation, automatic translation after refresh, and dynamic content. It also fixes the installation checks, maintenance and stale Word registration conflicts addressed in this release. Whole-page translation defaults to local models; users may explicitly select their own configured online API. Online services may charge fees, and the two modes do not silently switch between each other.
 
-Download the **EXE**. GitHub's automatic Source code archives contain only this download repository's documentation and cannot install the input method.
+Download the **EXE**. GitHub's automatic **Source code (zip / tar.gz)** archives contain this download repository's documentation, not an installable input method.
 
 ## Installation and data
 
-Save your work and close active Mansur learning, speech or settings operations. Read the [terms](legal/使用条款.txt), [desktop privacy notice](legal/隐私说明.txt), [pre-installation guide](legal/安装前阅读.txt) and component licenses, then accept to continue. Follow the installer's checks for an existing installation. If removal is required, personal settings/API configuration, dictionaries, records and models have separate deletion choices, **off by default**. Leave deletion choices unchecked to retain them. An incomplete-removal message is not a successful uninstall. Version 87's actual data-preservation and installation results remain pending; direct upgrades from every older version are not claimed.
+1. Save your work and close active Mansur learning, speech or settings operations.
+2. Open the EXE and read its bundled terms, privacy notice, installation instructions and component licenses before accepting. Follow normal Windows prompts for this unsigned installer; disabling security controls is not required.
+3. Follow the installer's checks for an existing installation. If removal is required, settings/API configuration, dictionaries, records and models have separate deletion choices, **off by default**. Leave deletion options unchecked to retain them. An incomplete-removal message does not mean uninstallation succeeded.
+4. Follow the setup guide and select Mansur with Win + Space. Direct upgrades from every older version are not claimed.
 
-Follow the setup guide and select Mansur with Win + Space. Ordinary typing needs no large model. Optional local translation, speech and dictation need their respective models or selected online services. Downloads require confirmation, and the installer does not include all optional models. The model downloader prioritizes domestic ModelScope sources; availability and speed depend on the network and source service. A VPN is not required by the downloader. Reuse existing models where available.
+Ordinary typing needs no large model. Optional translation, speech and dictation require their respective models or selected services. The installer does not include all optional models, developer API keys or online allowances. Model and speech resources may require several GB of downloads. The model downloader prioritizes domestic ModelScope sources; actual availability and speed depend on the network and source service. The downloader does not require a VPN. Reuse existing models without unnecessary downloads or relocation.
 
 ## Chrome and Edge
 
-Both extensions are named **Mansur**, version **0.3.3**, and require desktop version **83 or newer**. Version 87 keeps the same communication protocol and extension identities, so no extension rebuild is required for compatibility. Ten simulated checks cover both browsers' handling of version 87, minimum versions and incompatible protocols; actual browser and official-store installation acceptance remains pending.
+**As verified on 2026-10-29, Mansur 0.3.3 is publicly available in the Chrome Web Store.**
 
-Both store submissions have been made. Verified store links will be added when available; submission does not establish publication. The browser manages extension installation and website permissions separately from desktop installation.
+[Chrome Web Store listing](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb)
 
-### Retained version 83 review baseline
+The **0.3.6 update package and reviewer materials are prepared but have not yet been submitted for update review**. Installing desktop 92 does not give the store's 0.3.3 extension the new whole-page features. Official store publication and the update path for 0.3.6 remain pending. Check the actual store version; prepared materials do not establish publication. Edge's current status and companion update are being verified separately; this page does not claim that Edge 0.3.6 is published.
 
-[Original 83 installer](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-83/Mansur-Setup-0.1.0-private.83-Windows-x64.exe) · [83 release](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83)
+The browser manages extension installation and website permissions separately from desktop installation. The 0.3.6 whole-page feature requires desktop 92. Detailed sentence explanations are optional and require the user's own online service, not the developer's account.
 
-The existing 83 installer passed targeted real installation and test-extension connection checks on a second Windows computer. Those results do not apply to version 87 and do not establish official-store installation acceptance. Submitted review instructions reference 83, so its download remains unchanged. The word `private` in its filename is historical naming; the asset is public.
+## Historical releases and existing review references
+
+- [Version 91 release](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91)
+- [Version 87 prerelease](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87)
+- [Version 83 review baseline](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83)
+
+These releases and their downloads remain available for existing references. The word `private` in the version 83 filename is historical naming; the asset is public. Historical acceptance results do not automatically apply to version 92.
 
 ## Licensing and support
 
-Public legal documents on this page apply to **version 87 / document version 2026-10-25.1**. Older installers retain their bundled documents.
+Use the documents bundled with the installer you download. This repository's existing [terms](legal/使用条款.txt), [desktop privacy notice](legal/隐私说明.txt) and [pre-installation guide](legal/安装前阅读.txt) apply to **version 87 / document version 2026-10-25.1**. They are historical material, not a claim to be version 92's documents.
 
-Mansur-owned code and documentation use [MIT](legal/Mansur-MIT.txt); third-party components and models retain their respective licenses. See [license and corresponding-source locations](LICENSES.md). The complete installer is not MIT-only. This repository does not publish the private source repository's Git history; the installer still includes required corresponding-source materials and some readable Python files.
+Mansur-owned code and documentation use [MIT](legal/Mansur-MIT.txt); third-party components and models retain their own licenses. See [license and corresponding-source locations](LICENSES.md). The complete installer is not MIT-only.
 
-Support and privacy: **800693@QQ.com**. Do not send passwords, verification codes, API keys or private documents with feedback.
+This repository publishes downloads and documentation, not the private source repository's Git history. The installer still includes corresponding-source materials required by applicable licenses and some readable Python files.
+
+Support and privacy: **800693@QQ.com**. Include the version, reproduction steps and error message with feedback, but no passwords, verification codes, API keys or private documents.
