@@ -2,56 +2,52 @@
 
 Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提供。
 
-## 最新版本：91
+## 最新版本：92 修正版
 
-**[下载 91 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-91/Mansur-Setup-0.1.0.91-Windows-x64.exe)** · [91 发行说明](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91) · [English](README.en.md)
-
-- 文件：`Mansur-Setup-0.1.0.91-Windows-x64.exe`，**417,176,340 字节**。
-- SHA256：`18172dc81a24d04aba990c5761594b10d8e731c517362f2362d989bdd2795ac5`。
-- 此包已在开发者电脑安装运行；其他设备及全部功能尚未完成全面验收。安装包未进行数字签名。
-- 安装和卸载时请阅读 91 包内的条款与说明。需要保留个人设置、API 配置、词库和模型时，不要勾选卸载界面中的删除选项。
-- 91 的 Python 项目源码和第三方对应源码位置见 [91 发行说明](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91)。下面的 87 内容是历史信息，适用 87 版本。
-
-## 87 测试版（历史信息)
-
-**[下载 87 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-87/Mansur-Setup-0.1.0.87-Windows-x64.exe)** · [87 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87) · [English](README.en.md)
+**[下载 92 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [92 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [English](README.en.md)
 
 - Windows 10 2004 及以上／Windows 11，Intel 或 AMD 64 位电脑。
-- 文件：`Mansur-Setup-0.1.0.87-Windows-x64.exe`，**416,915,620 字节**。
-- SHA256：`7fe6d994a73c8b95c4e0e31e5499dba1a139ec03234a2ff0c9309a96fa379c8f`。
-- **这是测试版，尚待实机安装、卸载及完整使用验收。** 已完成构建、安装档案完整性和 763 项桌面自动检查；这些结果不能替代实际安装验收。
-- 复用本次已生成的 87 安装包原样发布，没有为上传重新打包。安装包尚未代码签名。
+- 文件：`Mansur-Setup-0.1.0.92-Windows-x64.exe`，**417,327,301 字节**。
+- SHA256：`ed70efcb46eb6b834145444b2baf65ced723e5fff366d40b27c50ce933dba86e`。
+- 原样发布现有修正版，没有为上传重新编译或打包。匿名完整下载已核验大小和 SHA256 一致。
+- 用户于 2026-10-29 确认修正版已经正常安装使用；这不代表其他设备及全部功能都完成了全面验收。安装包未进行数字签名。
 
-87 集中修复模型下载目录被历史设置覆盖、向导仍显示旧版本号，以及卸载时自身文件检查导致的误报占用。新模型默认放在 Mansur 产品目录下的 `Models`；已配置的模型保留并优先复用，不为更换默认目录而重新下载或自动迁移。
+92 提供浏览器扩展 0.3.6 所需的整页中文翻译、刷新后继续翻译和动态补译能力，并修复本次安装条件检查、维护及旧版 Word 登记冲突问题。整页翻译默认本地模型，也可以明确选择电脑端已配置的在线 API；在线服务可能收费，两种方式不会自动互换。
 
 请下载 Assets 中的 **EXE**。GitHub 自动生成的 **Source code (zip / tar.gz)** 仅包含本下载仓库的说明文件，不能用于安装输入法。
 
 ## 安装与个人数据
 
 1. 保存其他应用中尚未保存的工作，退出正在进行的 Mansur 学习、朗读或设置操作。
-2. 打开 EXE，阅读[使用条款](legal/使用条款.txt)、[桌面隐私说明](legal/隐私说明.txt)、[安装前阅读](legal/安装前阅读.txt)及组件许可，接受后继续。
+2. 打开 EXE，阅读安装包内的使用条款、隐私说明、安装说明及组件许可，接受后继续。安装包未签名，请按正常 Windows 流程处理提示，不需要关闭安全功能。
 3. 若已有旧版，按安装程序的检测结果处理；如需卸载，个人设置和 API、词库、记录及模型分别可选删除，**默认保留**。需要保留时不要勾选删除项。程序提示未完成时，不要视为卸载成功。
-4. 安装后按向导设置，通过 Win＋空格选择 Mansur。87 的实际安装和保留数据结果仍待验收，不承诺所有旧版本间的直接升级。
+4. 安装后按向导设置，通过 Win＋空格选择 Mansur。不承诺所有旧版本间的直接升级。
 
-普通打字不需要大模型。翻译、朗读及本地听写按所选功能准备模型或服务，下载前确认。安装包不含全部可选模型。内置模型下载优先使用国内 ModelScope 来源；实际可用性及速度取决于网络和来源服务，不要求用户使用 VPN。已有模型应先选用，不必重复下载。
+普通打字不需要大模型。翻译、朗读及本地听写按所选功能准备模型或服务，下载前确认。安装包不含全部可选模型，也不提供开发者个人 API 密钥或在线额度。模型、语音资源可能需要数 GB 下载；内置模型下载优先使用国内 ModelScope 来源，实际可用性及速度取决于网络和来源服务，不要求用户使用 VPN。已有模型应先选用，不必重复下载或迁移。
 
 ## Chrome 与 Edge
 
-两款扩展均为 **Mansur 0.3.3**，要求 Windows 电脑端 **83 或更新版本**。87 沿用相同的连接协议与扩展编号，无需为配合 87 重装不同版本的扩展。10 项模拟连接检查已覆盖两浏览器对 87、最低版本及异常协议的处理；实际浏览器连接和正式商店安装仍需验收。
+**截至 2026-10-29 本次核验，Chrome 商店已上架 Mansur 0.3.3。**
 
-两店的 0.3.3 已提交审核，正式商店链接将在可核实时补充。本页不将“已提交审核”视为“已上架”。浏览器自身管理扩展安装与网站访问授权；安装电脑端不会替用户完成这些授权。
+[Chrome 商店页面](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb)
 
-### 保留的 83 审核基线
+配套 **0.3.6 更新包及审核材料已准备，尚未提交更新审核**。因此，安装电脑端 92 不会让商店中的 0.3.3 自动获得整页翻译等新增功能；0.3.6 正式商店发布及更新链路仍待完成。请以实际商店版本为准，不将准备好材料等同于已经上架。Edge 的当前状态与配套更新另行核实，本页暂不宣称 Edge 0.3.6 已发布。
 
-[下载原 83 安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-83/Mansur-Setup-0.1.0-private.83-Windows-x64.exe) · [83 原发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83)
+浏览器自身管理扩展安装与网站访问授权，安装电脑端不会替用户完成这些授权。0.3.6 整页功能需要配套电脑端 92；详细句子讲解为可选在线功能，需要用户自行配置服务，不依赖开发者个人账户。
 
-83 已在测试电脑完成定向实际安装及既有测试扩展连接验收；此结论不转用于 87，也不代表正式商店安装已验收。已提交的审核材料引用 83，其下载链接继续保留，不因发布 87 撤换。83 文件中的 `private` 是历史命名，下载为公开。
+## 历史版本与既有审核引用
+
+- [91 发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-91)
+- [87 测试版发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-87)
+- [83 审核基线发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-83)
+
+以上历史发布及下载继续保留，既有审核引用不变。83 文件名中的 `private` 是历史命名，下载为公开。历史版本的验收结果不自动适用于 92。
 
 ## 许可与支持
 
-本页公开协议对应 **87／2026-10-25.1**；旧版以各自安装包随附的协议为准。
+请以所下载安装包随附的协议和许可证为准。本仓库现有[使用条款](legal/使用条款.txt)、[桌面隐私说明](legal/隐私说明.txt)及[安装前阅读](legal/安装前阅读.txt)对应 **87／2026-10-25.1**，是历史材料，不冒充本次 92 协议。
 
-Mansur 自有代码及文档适用 [MIT](legal/Mansur-MIT.txt)，第三方组件和模型分别适用原许可。[许可与对应源码位置](LICENSES.md)列明随包材料，整个安装包不能概括为仅采用 MIT。
+Mansur 自有代码及文档适用 [MIT](legal/Mansur-MIT.txt)，第三方组件和模型分别适用原许可。[许可与对应源码位置](LICENSES.md)列明相应材料，整个安装包不能概括为仅采用 MIT。
 
 本仓库只提供下载和公开说明，未包含私有源码仓库的 Git 历史。安装包仍附带适用许可证要求的对应源码及部分可读 Python 文件。
 
