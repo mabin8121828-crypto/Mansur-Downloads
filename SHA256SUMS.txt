@@ -1,2 +1,4 @@
+e2e00ec633ccf2508caeb3e23511eaf035eeabb9b8014c643ae69ce7db09296c  Mansur-Setup-0.1.0.94-Windows-x64.exe
+ed70efcb46eb6b834145444b2baf65ced723e5fff366d40b27c50ce933dba86e  Mansur-Setup-0.1.0.92-Windows-x64.exe
 7fe6d994a73c8b95c4e0e31e5499dba1a139ec03234a2ff0c9309a96fa379c8f  Mansur-Setup-0.1.0.87-Windows-x64.exe
 8bfaa7845d8f9c1032078d272e94d606b0ef2ecfc608735ba2ba0eb210bd22cc  Mansur-Setup-0.1.0-private.83-Windows-x64.exe
