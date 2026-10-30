@@ -43,7 +43,7 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-The recommended pairing is **desktop 97 with extension 0.3.11**; their version numbers are independent. Version 0.3.11 was submitted to both stores on 2026-10-30, when Chrome showed pending review and Edge showed under review. This is a dated observation, not confirmation of current approval or publication. Consult the live store dashboard.
+The recommended pairing is **desktop 97 with extension 0.3.11**; their version numbers are independent. Developer-dashboard screenshots provided on 2026-10-31 show **Chrome 0.3.11 published publicly; Edge 0.3.11 still under review, with 0.3.3 currently live**. The same 0.3.11 update package was submitted to both stores on 2026-10-30. Chrome publication does not imply Edge approval.
 
 The 97 installer includes the local 0.3.11 extension files. Welcome pages in older extensions or frozen historical installers may still mention 92/94; use the 97 download above. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
 
