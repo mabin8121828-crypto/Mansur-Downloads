@@ -2,23 +2,21 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Latest public test version: 95 (uninstall maintenance correction)
+## Current download: 97 installation and removal fixes
 
-**[Download the 95 Windows x64 test installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-95/Mansur-Setup-0.1.0.95-Windows-x64.exe)** · [95 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-95)
+**[Download the 97 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-97/Mansur-Setup-0.1.0.97-Windows-x64.exe)** · [97 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-97) · [中文](README.md)
 
-- File: `Mansur-Setup-0.1.0.95-Windows-x64.exe`, **417,234,407 bytes**.
-- SHA256: `3241dd68dc95a1900289a077da6b00261f534429161122e50f2ebce14dea7a7a`.
-- Fixes generated maintenance records that were not recognized by the uninstall rules and could block cleanup. New rollback records are stored outside the program directory with permission, file-identity and installation-generation checks.
-- Completes the explicit version-95 installation, removal and deferred-cleanup checks and rebuilds the maintenance worker. The desktop business executable and browser files remain byte-identical to accepted 94 inputs. The desktop executable still reports 0.1.0.94; Windows setup/removal identifies maintenance revision 95.
-- **669 maintenance checks** passed in this round, plus independent payload hashes, compressed integrity and the exact changes from 94. A complete anonymous download matched the published file size and SHA256.
-- This remains a **prerelease**: **target-computer installation, installed-version removal, complete installed-browser acceptance and store automatic updates remain pending**.
-- Retains the local general context, professional enhancement off by default, dynamic courses, formulas and Chinese answer labels from 94. Local extension 0.3.11 is bundled. It has been submitted to Chrome and Edge review; submission does not establish store publication.
-- Version 95 does not rewrite an already-installed older uninstaller. A failed older uninstall must first be recovered using its actual maintenance result. Leave settings, dictionaries, history and model deletion unchecked to preserve data.
-- [Version 94 and earlier releases/downloads](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases) remain available, and stable latest is unchanged.
+- File: `Mansur-Setup-0.1.0.97-Windows-x64.exe`, **417,387,235 bytes**.
+- SHA256: `c2e3b9a6240686fa5e041fe93da5e963e4a07750935c6b5c0294bed4fe6287e6`.
+- Setup, maintenance and the desktop executable now identify version 0.1.0.97. The companion browser extension has its own version, **0.3.11**.
+- Aligns the wizard and actual maintenance entry with the reviewed revision policy, fixing rejection of an approved same-version repair. Adds bounded account-phase verification and failure diagnostics.
+- On 2026-10-31, the target computer passed genuine final-installer repair, Chrome/Edge/Word translation of Hello, world., and complete removal through that installer's own uninstaller. Final removal needed no further restart. Checks of 2,693 protected records preserved settings, vocabulary, history and models.
+- A complete anonymous GitHub download matched the exact size and SHA256. The accepted installation repaired an earlier failed 97 installation; a separate clean-machine first installation was not tested. This remains a prerelease.
+- Use **97** above. GitHub's stable Latest label remains on historical 92 and does not identify the current recommended download.
 
-## Accepted version: corrected 92
+## Historical version: corrected 92
 
-Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Version 95 includes the later maintenance corrections but does not rewrite an already-installed 92 uninstaller.
+Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Use the current 97 download above. A new installer does not automatically repair an older uninstaller that has not been run.
 
 **[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
@@ -45,9 +43,9 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-Desktop and store-extension versions are published independently. Full neutral page context and professional enhancement in extension 0.3.11 require desktop 94 or maintenance revision 95 (which retains the 94 business executable). Desktop 92 retains the previous general-translation protocol. This GitHub upload does not change either store; 0.3.11 store review and automatic-update acceptance are separate. Check the actual store version.
+The recommended pairing is **desktop 97 with extension 0.3.11**; their version numbers are independent. Version 0.3.11 was submitted to both stores on 2026-10-30, when Chrome showed pending review and Edge showed under review. This is a dated observation, not confirmation of current approval or publication. Consult the live store dashboard.
 
-The 95 installer includes the local 0.3.11 extension files. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
+The 97 installer includes the local 0.3.11 extension files. Welcome pages in older extensions or frozen historical installers may still mention 92/94; use the 97 download above. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
 
 ## Historical releases and existing review references
 
@@ -59,7 +57,7 @@ These releases and their downloads remain available for existing references. The
 
 ## Licensing and support
 
-Use the documents bundled with your installer. Version 95 retains the same **2026-10-29.2** documents as 94: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt), matching the documents bundled in 94 and 95.
+Use the **2026-10-29.2** terms and component licenses bundled with 97. Public reading copies of the same document version remain in the historical 94 directory: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt). That directory name is historical, not a download recommendation.
 
 The original [terms](legal/使用条款.txt), [privacy notice](legal/隐私说明.txt) and [pre-installation notice](legal/安装前阅读.txt) remain historical version87 /2026-10-25.1 material. For 92 and earlier releases, use the documents bundled with each installer.
 
