@@ -1,5 +1,15 @@
 # Mansur 发行记录
 
+## 97 安装卸载修复版 · 2026-10-31
+
+[下载97安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-97/Mansur-Setup-0.1.0.97-Windows-x64.exe) · [97发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-97)
+
+当前推荐电脑端为97，配套扩展为0.3.11。统一安装向导与维护入口的版本校验，补齐账户阶段核验和诊断。最终安装包的实际修复安装、Chrome／Edge／Word试译和再次完整卸载已通过；2693项保护记录核对通过，个人设置、词库、历史和模型保留。最终卸载无需再次重启。全新电脑首次安装尚未单独测试，仍以预发布提供。
+
+安装包417387235字节，SHA256：`c2e3b9a6240686fa5e041fe93da5e963e4a07750935c6b5c0294bed4fe6287e6`。完整匿名下载已验证。两店扩展审核独立进行：2026-10-30已提交0.3.11，当时均在审核中；不以此历史记录推断当前审核结果。
+
+历史安装包保持原文件与校验值；旧欢迎页若仍写92／94，请使用本页的97下载入口。历史版本及稳定Latest标签保留。
+
 ## 94 公开测试版 · 2026-10-30
 
 [下载94安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-94/Mansur-Setup-0.1.0.94-Windows-x64.exe) · [94发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-94)
@@ -27,7 +37,7 @@ Mansur 94 公开测试版 · Windows x64
 大小：417285140字节
 SHA256：e2e00ec633ccf2508caeb3e23511eaf035eeabb9b8014c643ae69ce7db09296c
 
-这是最新公开测试版。92及更早发布继续保留，源码仓库继续保持私有。
+以上为94发布时的历史记录；当前下载请使用页首97。旧发布继续保留，源码仓库继续保持私有。
 
 ## 92 已验收版
 
