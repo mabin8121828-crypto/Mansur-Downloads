@@ -44,7 +44,7 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-The paired versions are **desktop 99 and extension 0.3.12**. The 0.3.12 update is being prepared for review; approval is not claimed. Official dashboards checked on 2026-10-31 show **Chrome 0.3.11 public; Edge 0.3.11 under review and 0.3.3 live**. Store decisions are independent.
+The paired versions are **desktop 99 and extension 0.3.12**. The same 0.3.12 ZIP was submitted to both stores on 2026-10-31: **Chrome is pending review and Edge is under review**. Approval is not claimed. Current public versions remain **Chrome 0.3.11 and Edge 0.3.3**. Store decisions are independent.
 
 The 99 installer includes local 0.3.12 extension files. Browsers manage store installation, updates and website permissions. Whole-page translation requires your own configured online API and site consent; developer keys and credits are not supplied. Professional enhancement follows one desktop switch and starts off. Historical welcome pages may mention 92/94/97; use the current 99 download above.
 
