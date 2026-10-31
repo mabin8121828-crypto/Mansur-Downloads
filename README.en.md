@@ -1,25 +1,28 @@
 # Mansur downloads
 
-**Installer updated (2026-10-31): use the 99 EXE containing `InstallFix1`. This is a setup-launch repair; the application remains version99. The original 99 installer has a launcher-environment compatibility issue and remains historical material. Please defer using that original file.**
+**Recommended: the complete 101 installer (2026-10-31). No prior 99 or 100 installation is required. The exact package passed installation, reading integration, uninstallation and reinstallation on the target computer.**
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Current download: 99 setup-launch repair
+## Current download: complete 101 installer
 
-**[Download the 99 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99-installfix1/Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe)** · [99 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99-installfix1) · [中文](README.md)
+**[Download the complete 101 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-101/Mansur-Setup-0.1.0.101-Windows-x64.exe)** · [101 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-101) · [中文](README.md)
 
-- File: `Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe`, **417,265,021 bytes**.
-- SHA256: `7a756f7ef58071eb017c10b3647dd5dee5731b2b036a6e4c491e60343bfd1fa0`.
-- Desktop **0.1.0.99** pairs with extension **0.3.12**. Store review is separate.
-- Whole-page English-to-Chinese translation uses the desktop-selected online API provider and model. It does not start a local translation model or automatically change services. Selection, Word and speech retain their existing settings.
-- Fixes echoed input or structured wrappers in webpages, continued processing after a segment fails validation, and false rejection of equivalent clock expressions. Dynamic content is translated and disabling translation restores corresponding originals.
-- Professional enhancement is off by default. When enabled, only necessary bounded context and matching selected glossary entries are sent, not the entire glossary.
-- This repair installer passed actual installation, reading-integration checks, uninstallation with automatic physical program removal, and reinstallation on the target computer. The 2,693 protected records were checked against the current state before removal. Settings, vocabulary, history and models were retained; the original local-model choice was restored after the guide. All application payload bytes match the original99, so its existing Chrome for Testing, Edge API and Word acceptance is reused. This is not a separate clean-machine or official-store auto-update acceptance.
-- The exact accepted installer was uploaded unchanged and a full anonymous download matched its size and SHA256. This remains a prerelease. Stable Latest stays on historical 92; use 99 above.
+- File: `Mansur-Setup-0.1.0.101-Windows-x64.exe`, **417,422,277 bytes**.
+- SHA256: `5885edcb239d93afb3e837f11c48ac93e180c4aa72a6b059a496cb992cfb3193`.
+- Desktop **0.1.0.101** pairs with extension **0.3.12**. Store approval is separate.
+- Whole-page English-to-Chinese translation uses the desktop-selected online API provider and model, without automatic local fallback or service switching. Selection, Word and speech retain their settings.
+- Fixes rejection of equivalent Chinese numbers such as “20,000→两万/2万”. Wrong or missing numbers and dropped negation remain checked. Disabled professional enhancement does not activate domain glossaries.
+- Extension0.3.12 corrects the older generic “critical terminology” failure message. A failed segment retains its source while other and dynamically added content continues.
+- Normal shutdown now authenticates, closes and awaits its own standalone reading service. The actual uninstaller closed the main app and reading service and automatically removed program files, without forced termination, manual program deletion, unrelated app closure or reboot.
+- The same complete package passed actual installation, Edge and Chrome for Testing native translation, Word selection translation, uninstallation and reinstallation. All three displayed “你好，世界。” for “Hello, world.”. The 2,692 protected records remained unchanged; settings, vocabulary, history and models were retained, and original service and reading switches restored.
+- 2,899 desktop checks passed. No new paid API requests were made; existing99 online inference evidence is retained, with separate new numeric, dynamic-page and native API-setting checks. Word exercised the registered callback, not a physical menu click. User Chrome store auto-update and clean-machine installation are not claimed.
+- 100 was withheld after full-cycle testing found the reading-service exit gap. 99 and its setup-launch repair remain historical; use101.
+- The exact tested installer was uploaded unchanged and a full anonymous download matched its size and SHA256. This is a prerelease; stable Latest remains historical92.
 
 ## Historical version: corrected 92
 
-Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Use the current 99 download above. A new installer does not automatically repair an older uninstaller that has not been run.
+Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Use the current 101 download above. A new installer does not automatically repair an older uninstaller that has not been run.
 
 **[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
@@ -46,9 +49,9 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-The paired versions are **desktop 99 and extension 0.3.12**. The same 0.3.12 ZIP was submitted to both stores on 2026-10-31: **Chrome is pending review and Edge is under review**. Approval is not claimed. Current public versions remain **Chrome 0.3.11 and Edge 0.3.3**. Store decisions are independent.
+The paired versions are **desktop 101 and extension 0.3.12**. Both developer dashboards were rechecked on 2026-10-31. The same 0.3.12 ZIP is submitted: **Chrome is pending review and Edge is under review**. Approval is not claimed. Current public versions remain **Chrome 0.3.11 and Edge 0.3.3**. Store decisions are independent.
 
-The 99 installer includes local 0.3.12 extension files. Browsers manage store installation, updates and website permissions. Whole-page translation requires your own configured online API and site consent; developer keys and credits are not supplied. Professional enhancement follows one desktop switch and starts off. Historical welcome pages may mention 92/94/97; use the current 99 download above.
+The complete 101 installer includes local 0.3.12 extension files. Browsers manage store installation, updates and website permissions. Whole-page translation requires your own configured online API and site consent; developer keys and credits are not supplied. Professional enhancement follows one desktop switch and starts off. Historical welcome pages may mention 92/94/97; use the current 101 download above.
 
 ## Historical releases and existing review references
 
@@ -60,7 +63,7 @@ These releases and their downloads remain available for existing references. The
 
 ## Licensing and support
 
-Use the **2026-10-31.1** terms and component licenses bundled with 99: [terms](legal/0.1.0.99/使用条款.txt), [privacy notice](legal/0.1.0.99/隐私说明.txt) and [pre-installation notice](legal/0.1.0.99/安装前阅读.txt). Earlier documents remain historical material.
+Use the **2026-10-31.1** terms and component licenses bundled with 101: [terms](legal/0.1.0.99/使用条款.txt), [privacy notice](legal/0.1.0.99/隐私说明.txt) and [pre-installation notice](legal/0.1.0.99/安装前阅读.txt). Earlier documents remain historical material.
 
 The original [terms](legal/使用条款.txt), [privacy notice](legal/隐私说明.txt) and [pre-installation notice](legal/安装前阅读.txt) remain historical version87 /2026-10-25.1 material. For 92 and earlier releases, use the documents bundled with each installer.
 
