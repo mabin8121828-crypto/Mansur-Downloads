@@ -44,7 +44,7 @@ Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提�
 
 [Chrome商店页面](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Edge商店页面](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-当前配套版本为 **电脑端99＋扩展0.3.12**。0.3.12更新正在办理，尚未宣称审核通过。2026-10-31实际后台核实：**Chrome公开版0.3.11；Edge的0.3.11正在审核，公开版0.3.3**。两店的审核和上线相互独立。
+当前配套版本为 **电脑端99＋扩展0.3.12**。2026-10-31已向两家商店提交同一份0.3.12更新包：**Chrome待审核，Edge正在审阅**，尚未审核通过。当前公开版仍为**Chrome 0.3.11、Edge 0.3.3**；两店的审核和上线相互独立。
 
 99安装包内附0.3.12本地扩展文件，商店安装和更新由浏览器管理。整页翻译需要自己配置在线API并确认网站授权；不提供开发者密钥或额度。专业增强由电脑端统一控制，默认关闭。旧版欢迎页和历史包可能仍写92／94／97，请以本页当前99入口为准。
 
