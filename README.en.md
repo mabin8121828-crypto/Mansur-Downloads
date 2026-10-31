@@ -1,20 +1,20 @@
 # Mansur downloads
 
-**Installation issue (2026-10-31): the original 99 installer can fail with `READING_PREFLIGHT_FAILED` under some launcher environments. Please defer installing that original file. A setup-launch fix is being verified; it is not yet accepted. Earlier passing installation records did not cover this environment difference.**
+**Installer updated (2026-10-31): use the 99 EXE containing `InstallFix1`. This is a setup-launch repair; the application remains version99. The original 99 installer has a launcher-environment compatibility issue and remains historical material. Please defer using that original file.**
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Current download: 99 online page-translation fixes
+## Current download: 99 setup-launch repair
 
-**[Download the 99 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99/Mansur-Setup-0.1.0.99-Windows-x64.exe)** · [99 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99) · [中文](README.md)
+**[Download the 99 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99-installfix1/Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe)** · [99 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99-installfix1) · [中文](README.md)
 
-- File: `Mansur-Setup-0.1.0.99-Windows-x64.exe`, **417,264,844 bytes**.
-- SHA256: `3df421b6c588cd7dd40b21d904c14894d8663404c21efb8f437d3f6c3982c4a0`.
+- File: `Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe`, **417,265,021 bytes**.
+- SHA256: `7a756f7ef58071eb017c10b3647dd5dee5731b2b036a6e4c491e60343bfd1fa0`.
 - Desktop **0.1.0.99** pairs with extension **0.3.12**. Store review is separate.
 - Whole-page English-to-Chinese translation uses the desktop-selected online API provider and model. It does not start a local translation model or automatically change services. Selection, Word and speech retain their existing settings.
 - Fixes echoed input or structured wrappers in webpages, continued processing after a segment fails validation, and false rejection of equivalent clock expressions. Dynamic content is translated and disabling translation restores corresponding originals.
 - Professional enhancement is off by default. When enabled, only necessary bounded context and matching selected glossary entries are sent, not the entire glossary.
-- The target computer passed preserved-data removal of 98, installation of 99, reading integration and final removal. Actual Edge API page translation, a local sample in Google Chrome for Testing, and the registered Word callback with real selected text passed. Final 99 program files were removed and 2,693 protected records were checked. This is not a separate clean-machine or store-auto-update acceptance.
+- This repair installer passed actual installation, reading-integration checks, uninstallation with automatic physical program removal, and reinstallation on the target computer. The 2,693 protected records were checked against the current state before removal. Settings, vocabulary, history and models were retained; the original local-model choice was restored after the guide. All application payload bytes match the original99, so its existing Chrome for Testing, Edge API and Word acceptance is reused. This is not a separate clean-machine or official-store auto-update acceptance.
 - The exact accepted installer was uploaded unchanged and a full anonymous download matched its size and SHA256. This remains a prerelease. Stable Latest stays on historical 92; use 99 above.
 
 ## Historical version: corrected 92
