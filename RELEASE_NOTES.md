@@ -1,5 +1,17 @@
 # Mansur 发行记录
 
+## 101 完整安装包 · 2026-10-31
+
+[下载101完整安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-101/Mansur-Setup-0.1.0.101-Windows-x64.exe) · [101发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-101)
+
+修复整页翻译对“20,000→两万/2万”等等值中文数字的误判，保留错数、漏数和否定校验；关闭专业增强时不启用领域词库。配套扩展0.3.12修正旧版术语失败误报和单段失败阻断整页的问题。
+
+100在实际完整卸载测试中发现独立阅读后台未退出，未发布。101增加经过同用户、同会话及同程序验证的正常退出通知和实际进程退出等待。目标电脑上，同一101完整安装包已完成安装、Edge及Chrome测试浏览器、Word选文登记回调译出“你好，世界。”、带阅读后台的卸载、程序目录自动移除及装回。无需强制终止、手动删程序文件、关闭其他软件或重启。2,692项受保护记录核对未变，原服务和阅读开关恢复。
+
+2,899项桌面自检通过。未新增付费API请求，在线推理复用99既有实测，数字和动态页面另行验证；未宣称用户正式Chrome商店版自动更新或干净电脑首次安装通过。两店0.3.12仍在审核，提交不等于上线。
+
+文件417,422,277字节，SHA256：`5885edcb239d93afb3e837f11c48ac93e180c4aa72a6b059a496cb992cfb3193`。同一验收文件原样上传，完整匿名下载一致。101为完整安装包，无需先安装99或100。下列记录为历史，不代表当前推荐版本。
+
 ## 99 安装启动修复包 · 2026-10-31
 
 [下载99安装修复包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99-installfix1/Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe) · [修复包发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99-installfix1)
