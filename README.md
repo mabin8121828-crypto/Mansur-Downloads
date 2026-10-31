@@ -1,20 +1,20 @@
 # Mansur 输入法下载
 
-**安装问题提示（2026-10-31）：原 99 安装包在部分启动环境会出现 `READING_PREFLIGHT_FAILED`。请暂缓安装原文件。安装器启动修复正在验证，尚未宣称修复包可用。此前通过的安装记录未覆盖这项环境差异。**
+**安装包已更新（2026-10-31）：请使用带 `InstallFix1` 的 99 安装修复包。InstallFix1 表示安装器启动修复，软件版本仍是 99。原始 99 安装文件存在启动环境兼容问题，继续保留作历史记录，请暂缓使用。**
 
 Windows 输入、翻译、朗读与语音听写。由个人开发者 Mansur 提供。
 
-## 当前下载：99 网页在线翻译修复版
+## 当前下载：99 安装启动修复包
 
-**[下载 99 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99/Mansur-Setup-0.1.0.99-Windows-x64.exe)** · [99 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99) · [English](README.en.md)
+**[下载 99 Windows x64 安装包（约 398 MiB）](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99-installfix1/Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe)** · [99 发行说明与校验文件](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99-installfix1) · [English](README.en.md)
 
-- 文件：`Mansur-Setup-0.1.0.99-Windows-x64.exe`，**417,264,844 字节**。
-- SHA256：`3df421b6c588cd7dd40b21d904c14894d8663404c21efb8f437d3f6c3982c4a0`。
+- 文件：`Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe`，**417,265,021 字节**。
+- SHA256：`7a756f7ef58071eb017c10b3647dd5dee5731b2b036a6e4c491e60343bfd1fa0`。
 - 电脑端版本为 **0.1.0.99**，配套扩展为 **0.3.12**。两种编号独立管理；商店审核状态见下方。
 - 整页英文译中文使用电脑端选中的在线 API 服务和模型，不启动本地翻译模型，失败不自动切换服务。划词、Word、朗读沿用原有设置。
 - 修复输入包装或原文回显写入网页、单段未通过检查后阻断其他内容，以及正确时间表达被误判的问题；动态新增内容继续翻译，关闭后恢复原文。
 - 专业增强默认关闭。开启后只向所选 API 发送必要上下文及命中的已启用词条，不上传整套词库。
-- 目标电脑已完成保留数据的98卸载、99安装、阅读接入和再次卸载。Edge真实整页API、Chrome测试版的本地样句及Word实际选文回调通过；99程序文件最终清除。2693项保护记录核对通过，设置、词库、历史和模型保留。不将这次结果扩大为干净电脑首次安装或正式商店自动更新已验收。
+- 本修复包已完成目标电脑的实际安装、阅读接入检查、卸载自动清除程序文件及装回。卸载前当前状态的2693项保护记录核对通过，设置、词库、历史和模型保留。安装引导中的本地模型选择核验后恢复原值。全部程序载荷与原99一致，沿用已有的Chrome测试版、Edge API和Word验收；未扩大为正式商店自动更新或干净电脑首次安装已验收。
 - 本次发布复用验收过的原安装包；完整匿名下载的大小与SHA256一致，仍以预发布提供。GitHub稳定版Latest标签保留历史92，当前推荐下载为上方99。
 
 ## 历史版本：92 修正版
