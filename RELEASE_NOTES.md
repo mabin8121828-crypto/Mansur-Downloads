@@ -1,5 +1,15 @@
 # Mansur 发行记录
 
+## 99 安装启动修复包 · 2026-10-31
+
+[下载99安装修复包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99-installfix1/Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe) · [修复包发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99-installfix1)
+
+软件仍为0.1.0.99，扩展仍为0.3.12，全部程序载荷与原99一致。只修安装和卸载入口继承其他PowerShell环境后误加载组件，导致缺少Get-FileHash并报READING_PREFLIGHT_FAILED的问题；不修改用户或系统环境变量及安全设置。请使用带InstallFix1的EXE，原99初始安装文件保留作历史记录。
+
+本修复包已实际安装成功、通过阅读接入检查、再次卸载并由自动清理移除99程序文件，随后装回成功。以卸载前当前状态核对2693项保护记录通过，原有词库条目保留。首轮安装后曾有一份界面偏好文件在使用后更新，保留了现值；原始验收基线未被替换。安装引导中的模型选择已恢复原值，最终装回后保持不变。
+
+安装包Mansur-Setup-0.1.0.99-Windows-x64-InstallFix1.exe，417265021字节，SHA256：`7a756f7ef58071eb017c10b3647dd5dee5731b2b036a6e4c491e60343bfd1fa0`。公开上传后完整匿名下载一致。沿用相同程序载荷此前的翻译、Word与浏览器验收，未增加付费API测试；不宣称正式商店安装或干净电脑首次安装已通过。Chrome与Edge的0.3.12均已提交审核，目前公开版仍是Chrome0.3.11、Edge0.3.3。
+
 ## 99 网页在线翻译修复版 · 2026-10-31
 
 [下载99安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99/Mansur-Setup-0.1.0.99-Windows-x64.exe) · [99发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99)
