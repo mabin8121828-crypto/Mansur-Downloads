@@ -1,5 +1,7 @@
 # Mansur downloads
 
+**Installation issue (2026-10-31): the original 99 installer can fail with `READING_PREFLIGHT_FAILED` under some launcher environments. Please defer installing that original file. A setup-launch fix is being verified; it is not yet accepted. Earlier passing installation records did not cover this environment difference.**
+
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
 ## Current download: 99 online page-translation fixes
