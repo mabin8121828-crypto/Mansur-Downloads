@@ -1,5 +1,15 @@
 # Mansur 发行记录
 
+## 99 网页在线翻译修复版 · 2026-10-31
+
+[下载99安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99/Mansur-Setup-0.1.0.99-Windows-x64.exe) · [99发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99)
+
+当前下载为99，配套扩展0.3.12正在办理商店更新。整页英文译中文固定使用电脑端选中的在线API服务和模型；修复原文/包装回显、单段失败阻断页面及正确时间表达被误判。动态补译和原文恢复通过实际API路径检查；专业增强默认关闭，只发送必要上下文及命中词条。
+
+已在目标电脑完成98卸载、99安装、阅读接入和最终卸载，99程序文件最终移除，2693项保护记录通过。Chrome测试版实际本地样句、Edge真实API整页片段与动态内容，以及Word实际选文回调通过。不是正式商店安装/自动更新或干净电脑首次安装验收。测试中的安装引导改选了本地模型，结束后已恢复原有模型选择；API服务与模型未更换。
+
+安装包417264844字节，SHA256：`3df421b6c588cd7dd40b21d904c14894d8663404c21efb8f437d3f6c3982c4a0`。发布后完整匿名下载验证一致；仅公开安装包、校验值及公开说明，本机日志和个人数据不上传。以下为历史发布记录，不代表当前推荐版本。
+
 ## 97 安装卸载修复版 · 2026-10-31
 
 [下载97安装包](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-97/Mansur-Setup-0.1.0.97-Windows-x64.exe) · [97发行页](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-97)
