@@ -2,21 +2,22 @@
 
 A Windows input method with optional translation, text-to-speech and speech recognition, provided by individual developer Mansur.
 
-## Current download: 97 installation and removal fixes
+## Current download: 99 online page-translation fixes
 
-**[Download the 97 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-97/Mansur-Setup-0.1.0.97-Windows-x64.exe)** · [97 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-97) · [中文](README.md)
+**[Download the 99 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-99/Mansur-Setup-0.1.0.99-Windows-x64.exe)** · [99 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-99) · [中文](README.md)
 
-- File: `Mansur-Setup-0.1.0.97-Windows-x64.exe`, **417,387,235 bytes**.
-- SHA256: `c2e3b9a6240686fa5e041fe93da5e963e4a07750935c6b5c0294bed4fe6287e6`.
-- Setup, maintenance and the desktop executable now identify version 0.1.0.97. The companion browser extension has its own version, **0.3.11**.
-- Aligns the wizard and actual maintenance entry with the reviewed revision policy, fixing rejection of an approved same-version repair. Adds bounded account-phase verification and failure diagnostics.
-- On 2026-10-31, the target computer passed genuine final-installer repair, Chrome/Edge/Word translation of Hello, world., and complete removal through that installer's own uninstaller. Final removal needed no further restart. Checks of 2,693 protected records preserved settings, vocabulary, history and models.
-- A complete anonymous GitHub download matched the exact size and SHA256. The accepted installation repaired an earlier failed 97 installation; a separate clean-machine first installation was not tested. This remains a prerelease.
-- Use **97** above. GitHub's stable Latest label remains on historical 92 and does not identify the current recommended download.
+- File: `Mansur-Setup-0.1.0.99-Windows-x64.exe`, **417,264,844 bytes**.
+- SHA256: `3df421b6c588cd7dd40b21d904c14894d8663404c21efb8f437d3f6c3982c4a0`.
+- Desktop **0.1.0.99** pairs with extension **0.3.12**. Store review is separate.
+- Whole-page English-to-Chinese translation uses the desktop-selected online API provider and model. It does not start a local translation model or automatically change services. Selection, Word and speech retain their existing settings.
+- Fixes echoed input or structured wrappers in webpages, continued processing after a segment fails validation, and false rejection of equivalent clock expressions. Dynamic content is translated and disabling translation restores corresponding originals.
+- Professional enhancement is off by default. When enabled, only necessary bounded context and matching selected glossary entries are sent, not the entire glossary.
+- The target computer passed preserved-data removal of 98, installation of 99, reading integration and final removal. Actual Edge API page translation, a local sample in Google Chrome for Testing, and the registered Word callback with real selected text passed. Final 99 program files were removed and 2,693 protected records were checked. This is not a separate clean-machine or store-auto-update acceptance.
+- The exact accepted installer was uploaded unchanged and a full anonymous download matched its size and SHA256. This remains a prerelease. Stable Latest stays on historical 92; use 99 above.
 
 ## Historical version: corrected 92
 
-Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Use the current 97 download above. A new installer does not automatically repair an older uninstaller that has not been run.
+Known maintenance limitation: an older 92 uninstaller can be affected by the generated-record issue. Use the current 99 download above. A new installer does not automatically repair an older uninstaller that has not been run.
 
 **[Download the version 92 Windows x64 installer (approximately 398 MiB)](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/download/v0.1.0-92/Mansur-Setup-0.1.0.92-Windows-x64.exe)** · [Version 92 release notes and checksum](https://github.com/mabin8121828-crypto/Mansur-Downloads/releases/tag/v0.1.0-92) · [中文](README.md)
 
@@ -43,9 +44,9 @@ Ordinary typing needs no large model. Optional translation, speech and dictation
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/mansur/dmenmlbpnfajdnjnbjkcdldmhmfpphgb) · [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mansur/aoinocgeagdfogjpmjbpcndapplmjidl)
 
-The recommended pairing is **desktop 97 with extension 0.3.11**; their version numbers are independent. Developer-dashboard screenshots provided on 2026-10-31 show **Chrome 0.3.11 published publicly; Edge 0.3.11 still under review, with 0.3.3 currently live**. The same 0.3.11 update package was submitted to both stores on 2026-10-30. Chrome publication does not imply Edge approval.
+The paired versions are **desktop 99 and extension 0.3.12**. The 0.3.12 update is being prepared for review; approval is not claimed. Official dashboards checked on 2026-10-31 show **Chrome 0.3.11 public; Edge 0.3.11 under review and 0.3.3 live**. Store decisions are independent.
 
-The 97 installer includes the local 0.3.11 extension files. Welcome pages in older extensions or frozen historical installers may still mention 92/94; use the 97 download above. The browser manages installation, reloading and website permissions separately. Professional enhancement is controlled by one desktop switch, off by default, rather than per-site domain choices. Refresh open pages after changing settings. The new context is local-only; online API and selection translation keep their existing data rules, with no automatic switch to an online provider.
+The 99 installer includes local 0.3.12 extension files. Browsers manage store installation, updates and website permissions. Whole-page translation requires your own configured online API and site consent; developer keys and credits are not supplied. Professional enhancement follows one desktop switch and starts off. Historical welcome pages may mention 92/94/97; use the current 99 download above.
 
 ## Historical releases and existing review references
 
@@ -57,7 +58,7 @@ These releases and their downloads remain available for existing references. The
 
 ## Licensing and support
 
-Use the **2026-10-29.2** terms and component licenses bundled with 97. Public reading copies of the same document version remain in the historical 94 directory: [terms](legal/0.1.0.94/使用条款.txt), [privacy notice](legal/0.1.0.94/隐私说明.txt) and [pre-installation notice](legal/0.1.0.94/安装前阅读.txt). That directory name is historical, not a download recommendation.
+Use the **2026-10-31.1** terms and component licenses bundled with 99: [terms](legal/0.1.0.99/使用条款.txt), [privacy notice](legal/0.1.0.99/隐私说明.txt) and [pre-installation notice](legal/0.1.0.99/安装前阅读.txt). Earlier documents remain historical material.
 
 The original [terms](legal/使用条款.txt), [privacy notice](legal/隐私说明.txt) and [pre-installation notice](legal/安装前阅读.txt) remain historical version87 /2026-10-25.1 material. For 92 and earlier releases, use the documents bundled with each installer.
 
